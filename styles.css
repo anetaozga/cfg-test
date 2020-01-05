@@ -169,7 +169,26 @@ body, html {
     text-align: center;
 }
 
-hr {
-    margin: auto;
-    width: 40%;
+/* Recipe */
+
+.recipe b {
+    color: #0b3449;
+}
+
+.recipe-carousel {
+    margin: 2em auto;
+}
+
+.recipe-photo {
+    height: 500px;
+}
+
+.recipe-title {
+    color: #0b3449;
+}
+
+.recipe-time {
+    border-top: 1px solid #0b3449;
+    width: 200px;
+    padding: 1em;
 }
