@@ -21,7 +21,25 @@
 }
 
 .footer {
-    height: 3em;
+    height: 5.5em;
+    background-color: #0b3449;
+    color: #ffffff;
+}
+
+.footer p {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    padding-left: 0.5em;
+}
+
+.footer a:hover {
+    text-decoration: none;
 }
 
 .latest {
