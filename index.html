@@ -33,18 +33,21 @@
                                 <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Search</a>
                             </li>
                             <li class="nav-item share-box mt-2">
-                                <a href="" class="share"><i class="fas fa-envelope"></i></a>
-                                <a href="" class="share"><i class="fab fa-instagram"></i></a>
-                                <a href="" class="share"><i class="fab fa-facebook-f"></i></a>
+                                <a href="mailto:aneta.a.ozga@gmail.com" class="share" target="_blank"><i
+                                        class="fas fa-envelope"></i></a>
+                                <a href="https://www.instagram.com/anetaozga/" class="share" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/aneta.ozga.7/" class="share" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -57,7 +60,7 @@
                 <div class="col-md-4 latest">
                     <div>
                         <a href="" onmouseover="showName('eggOnGuacamole')" onmouseout="hideName('eggOnGuacamole')">
-                            <img src="https://twolovesstudio.com/wp-content/uploads/2017/05/99-Best-Food-Photography-Tips-5-1.jpg"
+                            <img src="img/eggs.jpg"
                                  class="img-fluid"
                                  alt="">
                             <h2 class="name" id="eggOnGuacamole">egg on guacamole</h2>
@@ -66,8 +69,9 @@
                 </div>
                 <div class="col-md-4 latest">
                     <div>
-                        <a href="" onmouseover="showName('roastedBeetrootAndFeta')" onmouseout="hideName('roastedBeetrootAndFeta')">
-                            <img src="https://twolovesstudio.com/wp-content/uploads/2017/05/99-Best-Food-Photography-Tips-1.jpg"
+                        <a href="" onmouseover="showName('roastedBeetrootAndFeta')"
+                           onmouseout="hideName('roastedBeetrootAndFeta')">
+                            <img src="img/beetrot.jpg"
                                  alt="" class="img-fluid">
                             <h2 class="name" id="roastedBeetrootAndFeta">roasted beetroot and feta</h2>
                         </a>
@@ -76,7 +80,7 @@
                 <div class="col-md-4 latest">
                     <div>
                         <a href="" onmouseover="showName('scones')" onmouseout="hideName('scones')">
-                            <img src="https://www.creativelive.com/blog/wp-content/uploads/2015/02/food-photography-mistakes-youre-making-and-how-to-fix-them.jpg"
+                            <img src="img/scones.jpg"
                                  alt="" class="img-fluid">
                             <h2 class="name" id="scones">scones</h2>
                         </a>
@@ -88,19 +92,48 @@
             <!-- about section starts -->
             <div class="row mx-0" id="about">
                 <div class="col-md-12">
-                    <h2 class="py-4 text-center">Welcome to my Kitchen!</h2>
                     <div class="row">
-                        <div class="col-md-5">
-                            A
+                        <div class="col-md-5 text-center">
+                            <img src="img/me.jpg" alt="Photo Aneta">
                         </div>
                         <div class="col-md-7">
-                            B
+                            <h2 class="py-4 text-center">Welcome to my Kitchen!</h2>
+                            <div class="about-me px-4 pt-4">
+                                <p>I’m so happy you’re here. Grab a cookie, take a seat, and let me introduce
+                                    myself.</p>
+                                <p>I’m Aneta. I’m a woman, baker, blogger, photographer and beginner front end
+                                    developer.</p>
+                                <p>My favorite thing in life is time spent around the table. And all the better with
+                                    some seriously tasty food to bring us all together.
+                                    I’ve been in the kitchen for most of my life. From a childhood, I watched my mom and
+                                    grandma work their baking magic, and once I picked up my first mixing spoon, I was
+                                    hooked!</p>
+                                <p>Baking has always been a
+                                    welcome creative release for me (the warm cookies are a definite bonus!). When I’m
+                                    not
+                                    in the kitchen, I love running, hiking, vacations at the lake, and experiencing all
+                                    the
+                                    exciting firsts with my Life is good!</p>
+                                <p class="text-right"><b style="color:#123a47;">Enjoy!</b></p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
             <!-- about section ends -->
+
+            <!-- contact starts -->
+
+            <div class="row mx-0" id="contact">
+                <div class="col-md-12">
+                    <div class="contact">
+                        <h2 class="pt-3">Get in touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--contact ends -->
 
             <!-- footer starts -->
             <div class="row mx-0">
@@ -128,13 +161,13 @@
 
 <script>
     function showName(id) {
-        element=document.getElementById(id);
-        element.style.display="block";
+        element = document.getElementById(id);
+        element.style.display = "block";
     }
 
     function hideName(id) {
-        element=document.getElementById(id);
-        element.style.display="none";
+        element = document.getElementById(id);
+        element.style.display = "none";
     }
 </script>
 </body>

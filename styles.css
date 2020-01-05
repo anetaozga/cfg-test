@@ -1,3 +1,29 @@
+#about {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#about h2, #contact h2 {
+    color: #123a47;
+}
+
+#about img {
+    max-width: 470px;
+    padding:0 3em 2em 3em;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+#contact h2 {
+    color: #123a47;
+    background-color: white;
+    margin: -40px auto 0;
+    width: 240px;
+    padding: 0px 20px 0 30px;
+}
+
 #header {
     height: 6em;
     border-bottom: 1px solid #dedede;
@@ -18,6 +44,10 @@
 
 .bg-light {
     background-color: #ffffff!important;
+}
+
+.contact {
+    border-top: 3px dotted #123a47;
 }
 
 .footer {
