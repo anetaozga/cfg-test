@@ -24,6 +24,10 @@
     padding: 0px 20px 0 30px;
 }
 
+#contact .form-group {
+    margin-bottom: 0;
+}
+
 #header {
     height: 6em;
     border-bottom: 1px solid #dedede;
@@ -48,6 +52,7 @@
 
 .contact {
     border-top: 3px dotted #123a47;
+    padding-bottom: 3em;
 }
 
 .footer {
@@ -112,7 +117,59 @@
     text-align: center;
 }
 
+.say-hello {
+    padding-top: 1.5em;
+}
+
+.say-hello p, i {
+    color: #0b3449;
+}
+
+.say-hello p {
+    font-size: 18px;
+}
+
 .share {
     padding: 1em;
     text-align: center;
+}
+
+
+/* Blog */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url("img/pasta-eggs-chef-wheat-flour.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.bgimg h1 {
+    padding-bottom: 0.5em;
+}
+
+.bgimg p{
+    padding-top: 1em;
+    border-top: 1px solid white;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
 }

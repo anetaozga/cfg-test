@@ -8,8 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="styles.css">
-    <title>CFG</title>
+    <title>sweet and salty</title>
 </head>
 <body>
 
@@ -19,7 +20,7 @@
             <!-- header starts -->
             <div id="header">
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-                    <a class="navbar-brand" href="#"><img src="circle2.png" class="logo-image" alt="Logo image"></a>
+                    <a class="navbar-brand" href="index.html"><img src="circle2.png" class="logo-image" alt="Logo image"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,9 +38,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Search</a>
                             </li>
                             <li class="nav-item share-box mt-2">
                                 <a href="mailto:aneta.a.ozga@gmail.com" class="share" target="_blank"><i
@@ -59,7 +57,7 @@
             <div class="row mx-0" id="home">
                 <div class="col-md-4 latest">
                     <div>
-                        <a href="" onmouseover="showName('eggOnGuacamole')" onmouseout="hideName('eggOnGuacamole')">
+                        <a href="egg-on-guacamole.html" onmouseover="showName('eggOnGuacamole')" onmouseout="hideName('eggOnGuacamole')">
                             <img src="img/eggs.jpg"
                                  class="img-fluid"
                                  alt="">
@@ -90,45 +88,79 @@
             <!-- latest ends -->
 
             <!-- about section starts -->
-            <div class="row mx-0" id="about">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-5 text-center">
-                            <img src="img/me.jpg" alt="Photo Aneta">
-                        </div>
-                        <div class="col-md-7">
-                            <h2 class="py-4 text-center">Welcome to my Kitchen!</h2>
-                            <div class="about-me px-4 pt-4">
-                                <p>I’m so happy you’re here. Grab a cookie, take a seat, and let me introduce
-                                    myself.</p>
-                                <p>I’m Aneta. I’m a woman, baker, blogger, photographer and beginner front end
-                                    developer.</p>
-                                <p>My favorite thing in life is time spent around the table. And all the better with
-                                    some seriously tasty food to bring us all together.
-                                    I’ve been in the kitchen for most of my life. From a childhood, I watched my mom and
-                                    grandma work their baking magic, and once I picked up my first mixing spoon, I was
-                                    hooked!</p>
-                                <p>Baking has always been a
-                                    welcome creative release for me (the warm cookies are a definite bonus!). When I’m
-                                    not
-                                    in the kitchen, I love running, hiking, vacations at the lake, and experiencing all
-                                    the
-                                    exciting firsts with my Life is good!</p>
-                                <p class="text-right"><b style="color:#123a47;">Enjoy!</b></p>
+            <div class="container pt-4">
+                <div class="row mx-0" id="about">
+                    <div class="col-md-12">
+                        <div class="row pb-4">
+                            <div class="col-md-5 text-center">
+                                <img src="img/me.jpg" alt="Photo Aneta">
+                            </div>
+                            <div class="col-md-7">
+                                <h2 class="py-4 text-center">Welcome to my Kitchen!</h2>
+                                <div class="about-me px-4 pt-4">
+                                    <p>I’m so happy you’re here. Grab a cookie, take a seat, and let me introduce
+                                        myself.</p>
+                                    <p>I’m Aneta. I’m a woman, baker, blogger, photographer and beginner front end
+                                        developer.</p>
+                                    <p>My favorite thing in life is time spent around the table. And all the better with
+                                        some seriously tasty food to bring us all together.
+                                        I’ve been in the kitchen for most of my life. From a childhood, I watched my mom and
+                                        grandma work their baking magic, and once I picked up my first mixing spoon, I was
+                                        hooked!</p>
+                                    <p>Baking has always been a
+                                        welcome creative release for me (the warm cookies are a definite bonus!). When I’m
+                                        not
+                                        in the kitchen, I love running, hiking, vacations at the lake, and experiencing all
+                                        the
+                                        exciting firsts with my Life is good!</p>
+                                    <p class="text-right"><b style="color:#123a47;">Enjoy!</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- about section ends -->
 
             <!-- contact starts -->
 
-            <div class="row mx-0" id="contact">
-                <div class="col-md-12">
-                    <div class="contact">
-                        <h2 class="pt-3">Get in touch</h2>
+            <div class="container">
+                <div class="row mx-0" id="contact">
+                    <div class="col-md-12">
+                        <div class="contact">
+                            <h2 class="pt-3">Get in touch</h2>
+                            <div class="row py-5">
+                                <div class="col-md-6">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name"></label>
+                                            <input type="email" class="form-control" id="name" placeholder="Name *">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email"></label>
+                                            <input type="email" class="form-control" id="email" placeholder="Your e-mail *">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message"></label>
+                                            <textarea class="form-control" id="message" rows="3" placeholder="Message *"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block text-uppercase mt-4">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="col-md-6 say-hello">
+                                    <div class="row">
+                                        <div class="col-sm-2 text-center">
+                                            <i class="far fa-paper-plane"></i>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <p class="text-uppercase">say hello</p>
+                                            <p>Email: aneta.a.ozga@gmail.com</p>
+                                            <p>Phone: +44 1234 567 89</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
