@@ -1,0 +1,70 @@
+#header {
+    height: 6em;
+    border-bottom: 1px solid #dedede;
+}
+
+#header a{
+    text-transform: uppercase;
+    color: #123a47;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+#header a:hover {
+    text-decoration: none;
+    color: #798488;
+    transition: 0.5s;
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+.footer {
+    height: 3em;
+}
+
+.latest {
+    margin-top: 3em;
+}
+
+.latest a {
+    text-decoration: none;
+}
+
+.latest img {
+    transition: 0.5s;
+}
+
+.latest img:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.name {
+    position: relative;
+    display: none;
+    text-align: center;
+    top: -11em;
+    color: white;
+}
+
+.name:hover {
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 6em;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.navbar {
+    height: 6em;
+    text-align: center;
+}
+
+.share {
+    padding: 1em;
+    text-align: center;
+}
