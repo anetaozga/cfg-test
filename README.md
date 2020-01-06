@@ -2,4 +2,4 @@
 
 https://anetaozga.github.io/cfg-test/
  
- ![Preview]
+ ![Preview](https://github.com/anetaozga/cfg-test/
